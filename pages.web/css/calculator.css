@@ -1,0 +1,51 @@
+
+
+.box {
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 550px;
+}
+
+.dis{
+  width: 80vw;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  padding-right: 20px;
+  height: 100px;
+}
+.his{
+  font-size: 30px;
+  color: rgb(128, 127, 127);
+  text-align: right;
+}
+
+.res{
+  font-size: 40px;
+  text-align: right;
+
+}
+
+.ope , .num{
+  font-size: 30px;
+  margin: 10px;
+  user-select: none ;
+  width: 50px;
+  border: 8px ridge ;
+  border-radius: 50px;
+}
+
+#empty{
+  visibility: hidden;
+}
+
+.ope:hover{
+  background-color: #f7b38c;
+}
+.num:hover{
+  background-color: #f7b38c;
+}
+

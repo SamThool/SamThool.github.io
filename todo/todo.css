@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0vh;
+}
+
+.navbar {
+  background: #c6ffdd;
+  background: -webkit-linear-gradient(to left, #f7797d, #fbd786, #c6ffdd);
+  background: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd);
+
+  justify-content: center;
+  text-align: center;
+
+  width: 99vw;
+  margin: 1px;
+  height: 5vh;
+  border: 1px solid pink;
+  border-radius: 10px;
+}
+
+.logo {
+  color: white;
+  font-size: 5vh;
+   background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.inputbody {
+  justify-content: space-around;
+  text-align: center;
+}
+
+.inputcontainer {
+  background: #c6ffdd;
+  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  width: 80vw;
+  height: 60vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 20vw;
+  border: 1px solid pink;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+.inputtitle {
+  font-size: 3vh;
+}
+
+.inputdesc {
+  margin-top: 3vh;
+  font-size: 3vh;
+}
+
+.inputbox {
+  margin-top: 8vh;
+  margin-left: 1vw;
+  margin-bottom: 10vh;
+  margin-right: 1vw;
+}
+
+.titleS {
+  width: 30vw;
+  height: 6vh;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.descS {
+  width: 50vw;
+  height: 12vh;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.btn{
+  width: 20vw;
+  height: 5vh;
+  margin-top: 4vh;
+  font-size: 2.5vh;
+  background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.viewbody{
+ 
+  margin-left: 20vw;
+  margin-right: 20vw;
+   
+}
+
+table{
+  width: 60vw;
+  background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size: 2vw;
+  border: 0.1vw solid black;
+  border-radius: 2vw;
+  padding: 10px;
+}
+
+td{
+  padding: 10px;
+  border: 0.1vw solid black;
+  border-radius: 20vw;
+  text-align: center;
+}
+
+th{
+  
+  border-radius: 20vw;
+  padding: 10px;
+  border: 0.5vw solid black;
+}
+
+caption{
+  font-size: 4vh;
+  margin-top: 10vh;
+}
+
+#btndel{
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  border-radius: 20px;
+  padding: 1vw;
+  font-size: 1.5vw; 
+  cursor: pointer;
+}
+
+.foot{
+  
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  text-align: center;
+  margin-top: 8vh;
+  text-shadow: 0 0 3px black;
+  color: white;
+  font-size: 3vh;
+}
+
+.reboot{
+      
+  text-align: center;
+}
+
+.btndela{
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  border-radius: 20px;
+  padding: 1vw;
+  font-size: 1.5vw; 
+  cursor: pointer;
+}

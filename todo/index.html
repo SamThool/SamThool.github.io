@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo_List</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <!-- HeadNav -->
+    <div class="navbar">
+      <h1 class="logo">Todo List</h1>
+    </div>
+    <!-- input Task -->
+    <div class="inputbody">
+      <div class="inputcontainer">
+        <div class="inputbox">
+          <div class="inputtitle">
+            <h2>Title</h2>
+            <input type="text" placeholder="Enter Title Here" id="tit" class="titleS" />
+          </div>
+          <div class="inputdesc">
+            <h2>Description</h2>
+            <input type="text" placeholder="Enter Title Here" id="des" class="descS" />
+            <div class="btnd">
+              <button class="btn" id="add">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- View Task -->
+    <div class="viewbody">
+      <table>
+        <caption>
+          Todo's
+        </caption>
+        <tr>
+          <th scope="col">Sr.no</th>
+          <th scope="col">Title</th>
+          <th scope="col">Description</th>
+          <th scope="col">Action</th>
+        </tr>
+        <tbody id="tb">
+        <tr >
+          <th scope="col">1</th>
+          <td scope="col">shit</td>
+          <td scope="col">tatti</td>
+          <td><button id="btndel" class="btndel">Delete</button></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="reboot" >
+      <button class="btndela" id="dela" >Delete All</button>
+    </div>
+    <!-- footer -->
+    <div class="foot">
+      <h1>Thank you</h1>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>

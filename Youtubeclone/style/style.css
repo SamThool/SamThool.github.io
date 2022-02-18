@@ -1,0 +1,268 @@
+* {
+  margin: 0%;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  user-select: none;
+}
+
+.lifs {
+  font-size: 0.8rem;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.tac {
+  text-align: center;
+}
+
+.cb-icon {
+  width: 1.6rem;
+  flex-shrink: 0;
+}
+
+.aic {
+  align-items: center;
+}
+
+.mar {
+  margin: 0.4rem 1rem;
+}
+
+.df {
+  display: flex;
+}
+
+.icon-size {
+  height: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pad-menu {
+  margin: 0.4rem 0.4rem 0.4rem 0.8rem;
+}
+
+.metube {
+  margin: 0.4rem 0.4rem 0.4rem 0;
+}
+
+.metube-logo {
+  margin: 0.4rem 0 0.4rem 0;
+}
+
+.search-logo {
+  border: 2px solid rgb(194, 186, 186);
+  margin: 0.4rem 0.5rem 0 0;
+}
+
+.search-bar {
+  margin: 0.4rem 0 0 0;
+  border: 2px solid rgb(194, 186, 186);
+  height: 2rem;
+  display: flex;
+  width: 30vw;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.mic-logo {
+  border-radius: 50px;
+  background-color: rgb(238, 237, 237);
+}
+
+.icon-size-more {
+  height: 1.2rem;
+  padding-top: 0.3rem;
+}
+
+.icon-size-noti {
+  height: 1.5rem;
+  padding-top: 0.28rem;
+}
+
+.icon-size-profile {
+  height: 1.5rem;
+  width: 1.8rem;
+  padding-top: 0.28rem;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+li {
+  padding: 5px;
+}
+
+.hrf {
+  border: 1px solid rgb(194, 186, 186);
+  margin: 8px;
+}
+
+.control-bar {
+  height: 94vh;
+  /* width: 16%; */
+  flex-shrink: 0;
+  scroll-behavior: smooth;
+}
+
+.control-bar:hover {
+  overflow: scroll;
+}
+
+.control-bar::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+.control-bar::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 50px;
+}
+
+.cbsub {
+  font-weight: bold;
+}
+
+.cbli:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.icon-size-menu {
+  width: 12em;
+  height: 8em;
+  /* flex-grow: 1; */
+}
+
+.h-box {
+  width: 18rem;
+  height: 13rem;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  border-radius: 10px;
+}
+
+.h-box:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.home-con {
+  flex-wrap: wrap;
+  overflow: scroll;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  height: 94vh;
+}
+
+.menu-box-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.span-fs {
+  font-size: small;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+@media screen and (max-width: 1330px) {
+  /* .h-box {
+    width: 16vw;
+    height: 14vw;
+  } */
+}
+@media screen and (max-width: 1200px) {
+  .cbn {
+    display: none;
+  }
+  .control-bar {
+    overflow: scroll;
+  }
+  /* .h-box {
+    width: 20vw;
+    height: 16vw;
+  } */
+}
+@media screen and (max-width: 1033px) {
+  /* .h-box {
+    width: 18vw;
+    height: 14vw;
+  } */
+}
+@media screen and (max-width: 1000px) {
+  .dn-mob-a {
+    display: none;
+  }
+  .cb-icon {
+    display: none;
+  }
+  .dn {
+    display: none;
+  }
+  .control-bar {
+    display: none;
+  }
+  /* .h-box {
+    width: 16vw;
+    height: 14vw;
+  } */
+}
+
+@media screen and (max-width: 650px) {
+  .dn-mob-b {
+    display: none;
+  }
+  .search-logo {
+    border-radius: 50px;
+  }
+  .mar-mob-c {
+    margin-right: 30vw;
+  }
+  .h-box {
+    width: 28vw;
+    height: 20vw;
+  }
+  .icon-size-menu {
+    width: 12vw;
+    height: 8vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .h-box {
+    width: 34vw;
+    height: 26vw;
+  }
+  .icon-size-menu {
+    width: 18vw;
+    height: 10vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h-box {
+    width: 80vw;
+    height: 45vw;
+  }
+  .icon-size-menu {
+    width: 40vw;
+    height: 30vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mar-mob-c {
+    margin-right: 20vw;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .mar-mob-c {
+    margin-right: 10vw;
+  }
+}

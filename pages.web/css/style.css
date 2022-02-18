@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@400&display=swap");
+
+/* navbar */
+/* body */
+/* footer */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dongle", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  display: flex;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.lo {
+  align-items: center;
+}
+
+.lo img {
+  height: 3vw;
+  padding-top: 1vw;
+  margin-right: 1vw;
+}
+
+.go a {
+  font-size: 4vw;
+  color: black;
+  text-decoration: none;
+}
+
+.list ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 2.8vw;
+  user-select: none;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  height: 10vh;
+  width: 90vw;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list ul li {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  border-radius: 10px;
+  background-size: cover;
+  transition: 0.8s ease;
+}
+
+.home:hover {
+  background-image: url("/Resorce/home.png");
+  background-repeat: no-repeat;
+  background-size: 3vh;
+  background-position: left;
+  background-color: #f7b38c;
+}
+
+.projects:hover {
+  background-image: url("/Resorce/projects.png");
+  background-repeat: no-repeat;
+  background-size: 3vh;
+  background-position: left;
+  background-color: #f7b38c;
+}
+
+.feedback:hover {
+  background-image: url("/Resorce/feedback.png");
+  background-repeat: no-repeat;
+  background-size: 3vh;
+  background-position: left;
+  background-color: #f7b38c;
+}
+
+.music:hover {
+  background-image: url("/Resorce/music.png");
+  background-repeat: no-repeat;
+  background-size: 3vh;
+  background-position: left;
+  background-color: #f7b38c;
+}
+
+.contact:hover {
+  background-image: url("/Resorce/contact.png");
+  background-repeat: no-repeat;
+  background-size: 3vh;
+  background-position: left;
+  background-color: #f7b38c;
+}
+
+.margin {
+  width: 90vw;
+  margin: auto;
+}
+
+
+
+.feed_btns {
+  margin: 2vw;
+  border-radius: 20px;
+  height: 20vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: #f7b38c;
+  font-size: 3vh;
+  transition: 0.8s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.feed_row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#feed_todo:hover {
+  background-image: url("/Resorce/todo_app_icon.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+#feed_calculator:hover {
+  background-image: url("/Resorce/calculator_feed.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+#feed_rps:hover {
+  background-image: url("/Resorce/rock-paper-scissors.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+#feed_note:hover {
+  background-image: url("/Resorce/note.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+#feed_stopwatch:hover {
+  background-image: url("/Resorce/stopwatch_fee.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+#feed_clock:hover {
+  background-image: url("/Resorce/analogclock\ feed.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+#feed_ttt:hover {
+  background-image: url("/Resorce/tiktaktoefeed.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+#feed_colour:hover {
+  background-image: url("/Resorce/coloursfeed.jpg");
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.1px;
+}
+
+footer {
+  text-align: center;
+  font-size: 2vw;
+  user-select: none;
+}
+
+.footer_btns {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_btns li a {
+  color: black;
+  text-decoration: none;
+  font-size: 2.8vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#f_c {
+  background-color: #f7b38c;
+  border-radius: 10px;
+  background-size: cover;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.images{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+
+.img img{
+  height :50px
+  
+}

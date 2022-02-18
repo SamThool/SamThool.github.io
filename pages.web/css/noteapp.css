@@ -1,0 +1,28 @@
+.box {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 80vw;
+}
+
+.titlebox {
+  text-align: left;
+}
+
+.descriptionbox {
+  text-align: left;
+}
+
+.btnbox {
+  text-align: left;
+}
+
+.tit {
+  width: 78vw;
+  height: 8vh;
+}
+
+.des {
+  width: 78vw;
+  height: 18vh;
+}

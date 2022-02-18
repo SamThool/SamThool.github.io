@@ -1,0 +1,41 @@
+.homebody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #f7b38c;
+    padding: 2vh;
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+    border-radius: 40px;
+  }
+  
+  .coderimg img {
+    margin: 1vw;
+    width: 35vw;
+    padding: 3vw;
+  }
+  
+  .codergyn {
+    margin: 5vw;
+    font-size: 2vw;
+  }
+  
+  .homehi {
+    padding: 1vw;
+  }
+  
+  .btn_home_explore {
+    border: 5px solid pink;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
+  .homewel {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }

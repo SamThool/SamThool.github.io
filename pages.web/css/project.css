@@ -1,0 +1,102 @@
+.feed_btns {
+    margin: 2vw;
+    border-radius: 20px;
+    height: 20vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #f7b38c;
+    font-size: 3vh;
+    transition: 0.8s ease;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .feed_row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #feed_todo:hover {
+    background-image: url("/Resorce/todo_app_icon.jpg");
+    padding-right:  1vw;
+    padding-left:   1vw;
+    padding-top:    1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  #feed_calculator:hover {
+    background-image: url("/Resorce/calculator_feed.jpg");
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  #feed_rps:hover {
+    background-image: url("/Resorce/rock-paper-scissors.jpg");
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  #feed_note:hover {
+    background-image: url("/Resorce/note.jpg");
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  #feed_stopwatch:hover {
+    background-image: url("/Resorce/stopwatch_fee.jpg");
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  #feed_clock:hover {
+    background-image: url("/Resorce/analogclock\ feed.jpg");
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  #feed_ttt:hover {
+    background-image: url("/Resorce/tiktaktoefeed.jpg");
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  #feed_colour:hover {
+    background-image: url("/Resorce/coloursfeed.jpg");
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+  }
+  

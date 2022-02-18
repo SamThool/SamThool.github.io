@@ -1,0 +1,57 @@
+.body {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  font-size: 2vw;
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+}
+
+.box {
+  border: 2px solid black;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  border-radius: 10vw;
+  background-color: #f7b38c;
+
+}
+
+button{
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 3vw;
+    background-color: black;
+    color: white;
+}
+
+.colour-name{
+  font-size: 5vw;
+}
+
+.a{
+  width: 20vw;
+  margin: auto;
+  border-radius: 20px;
+  border: 5px solid #f7b38c;
+}
