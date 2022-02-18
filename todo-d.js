@@ -38,13 +38,13 @@ function reloadtable() {
 
   let tb = document.getElementById("tb");
   str = "";
-  itemjsonarray.forEach((Element, index) => {
+  itemjsonarray.forEach((Element, inde) => {
     str += `
             <tr>
-            <th >${index + 1}</th>
+            <th >${inde + 1}</th>
             <td >${Element[0]}</td>
             <td >${Element[1]}</td>
-            <td><button id="btndel" class="btndel" onclick="deleted(${index})" >Delete</button></td>
+            <td><button id="btndel" class="btndel" onclick="deleted(${inde})" >Delete</button></td>
             </tr>`;
   });
 
@@ -56,11 +56,11 @@ function reloadtable() {
 //        Deleted
 
 
-function deleted(itemIndex) {
-  console.log("deleted", itemIndex);
+function deleted(iteminde) {
+  console.log("deleted", iteminde);
   itemjsonarraystr = localStorage.getItem("itemjson");
   itemjsonarray = JSON.parse(itemjsonarraystr);
-  itemjsonarray.splice(itemIndex, 1);
+  itemjsonarray.splice(iteminde, 1);
   localStorage.setItem("itemjson", JSON.stringify(itemjsonarray));
   reloadtable();
 }

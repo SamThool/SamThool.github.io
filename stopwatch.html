@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/noteapp.css" />
+    <link rel="stylesheet" href="css/stopwatch.css" />
     <style>
       .projects {
         background-color: #f7b38c;
@@ -22,7 +22,7 @@
         </div>
         <div class="list">
           <ul>
-            <li class="home"><a href="/index.html">Home</a></li>
+            <li class="home"><a href="/inde.html">Home</a></li>
             <li class="projects"><a href="/projects.html">Projects</a></li>
             <li class="music"><a href="/music.html">Music</a></li>
             <li class="contact"><a href="/contact.html">Contact</a></li>
@@ -30,27 +30,18 @@
           </ul>
         </div>
       </div>
+      <div class="margin"><hr /></div>
     </nav>
-    <div class="margin"><hr /></div>
-<main>
-<div class="body">
-  <div class="box">
-    <div class="titlebox">
-    <h1>Title</h1>
-      <input type="text" placeholder="Enter Title Here" class="tit" id="">
+    <div class="container margin">
+      <div class="title">Stopwatch</div>
+      <div class="count">0</div>
+      <div class="btns">
+        <button class="btn" id="startandstop">Start</button>
+        <button class="btn" id="reset">Reset</button>
+        <p>Counts only in Seconds</p>
+      </div>
     </div>
-    <div class="descriptionbox">
-      <h1>Description</h1>
-      <input type="text" placeholder="Enter Description Here" class="des" id="">
-    </div>
-    <div class="btnbox">
-      <button class="btn" >Save</button>
-    </div>
-  </div>
 
-</div>
-
-</main>     
     <div class="margin"><hr /></div>
     <footer>
       <div class="footer_btns">
@@ -64,5 +55,6 @@
         feel free to give your feedback I hope you enjoy the " error 404 "
       </div>
     </footer>
+    <script src="/javascript/stopwatch.js"></script>
   </body>
 </html>
